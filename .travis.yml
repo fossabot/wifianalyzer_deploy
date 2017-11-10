@@ -1,0 +1,17 @@
+sudo: false
+cache: false
+language: android
+jdk: oraclejdk8
+android:
+    components:
+        - tools
+        - build-tools-26.0.2
+        - android-26
+        - extra-google-m2repository
+        - extra-android-m2repository
+script:
+    - TERM=dumb ./gradlew testDebugUnitTest jacocoTestDebugUnitTestReport --info -PdisablePreDex --stacktrace
+before_install:
+    - chmod +x gradlew
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
