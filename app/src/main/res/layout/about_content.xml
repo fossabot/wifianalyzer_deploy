@@ -146,7 +146,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
-                android:text="https://github.com/dragonbk91/wifianalyzers"/>
+                android:text="https://github.com/dragonbk91/wifianalyzer_deploy"/>
 
             <Button
                 android:id="@+id/writeReview"
