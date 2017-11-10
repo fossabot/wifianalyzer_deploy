@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "493709458922",
+    "project_id": "wifi-analyzer-plus"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493709458922:android:87f5e6794303e66c",
+        "android_client_info": {
+          "package_name": "com.lengkenglab.wifianalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493709458922-75bad52pk3fj99k57b4o60pmfgn9ri9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIIWbBu7z1FTTkYUtUyvrU47uhjJLLS_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-51932713-12"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ WiFiAnalyzer
-  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com> 
+  ~ Copyright (C) 2017  LengKeng Lab Software Development
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -22,9 +23,10 @@
 
     <item
         android:id="@+id/action_filter"
-        android:icon="@drawable/ic_filter_list_grey_500_48dp"
+        android:icon="@drawable/ic_search_black_24dp"
         android:title="@string/action_filter"
         app:showAsAction="ifRoom"/>
+    <!--android:icon="@drawable/ic_filter_list_grey_500_48dp"-->
 
     <item
         android:id="@+id/action_scanner"

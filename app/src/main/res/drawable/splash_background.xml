@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ WiFiAnalyzer
-  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com> 
+  ~ Copyright (C) 2017  LengKeng Lab Software Development
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -18,7 +19,7 @@
   -->
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-            android:opacity="opaque">
+            android:opacity="transparent">
     <item>
         <bitmap
             android:gravity="center"

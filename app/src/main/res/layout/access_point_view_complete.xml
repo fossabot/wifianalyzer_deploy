@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ WiFiAnalyzer
-  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com> 
+  ~ Copyright (C) 2017  LengKeng Lab Software Development
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -130,6 +131,19 @@
                         android:layout_marginEnd="@dimen/list_view_item_horizontal_spacer"
                         android:layout_marginRight="@dimen/list_view_item_horizontal_spacer"
                         android:textColor="@color/frequency"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/distance"
+                        android:textStyle="bold"
+                        android:text="Distance: "/>
 
                     <TextView
                         android:id="@+id/distance"
@@ -160,6 +174,19 @@
                         android:layout_marginEnd="@dimen/list_view_item_horizontal_spacer"
                         android:layout_marginRight="@dimen/list_view_item_horizontal_spacer"
                         android:textColor="@color/frequency"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/distance"
+                        android:textStyle="bold"
+                        android:text="Vendor: "/>
 
                     <TextView
                         android:id="@+id/vendorShort"

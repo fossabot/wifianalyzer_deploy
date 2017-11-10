@@ -1,6 +1,7 @@
 <!--
   ~ WiFiAnalyzer
-  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+  ~ Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com> 
+  ~ Copyright (C) 2017  LengKeng Lab Software Development
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -17,7 +18,7 @@
   -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.vrem.wifianalyzer.settings.ScanIntervalPreference
+    <com.lengkenglab.wifianalyzer.settings.ScanIntervalPreference
         android:defaultValue="@integer/scan_interval_default"
         android:key="@string/scan_interval_key"
         android:persistent="true"
@@ -101,13 +102,13 @@
         android:key="@string/wifi_off_on_exit_key"
         android:title="@string/wifi_off_on_exit_title"/>
 
-    <com.vrem.wifianalyzer.settings.StartMenuPreference
+    <com.lengkenglab.wifianalyzer.settings.StartMenuPreference
         android:key="@string/start_menu_key"
         android:persistent="true"
         android:summary="@string/start_menu_summary"
         android:title="@string/start_menu_title"/>
 
-    <com.vrem.wifianalyzer.settings.CountryPreference
+    <com.lengkenglab.wifianalyzer.settings.CountryPreference
         android:key="@string/country_code_key"
         android:persistent="true"
         android:summary="@string/country_code_summary"
