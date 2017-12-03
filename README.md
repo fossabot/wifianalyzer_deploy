@@ -8,6 +8,7 @@ Some User reported This is an "issue of Android OS 6(M) and 7(N),
    .
 
 [![Download from Google Play](http://www.android.com/images/brand/android_app_on_play_large.png "Download from Google Play")](https://play.google.com/store/apps/details?id=com.lengkenglab.wifianalyzer)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdragonbk91%2Fwifianalyzer_deploy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdragonbk91%2Fwifianalyzer_deploy?ref=badge_shield)
 
 
 ## Features:
@@ -31,6 +32,9 @@ Some User reported This is an "issue of Android OS 6(M) and 7(N),
 WiFi Analyzer is licensed under the GNU General Public License v3.0 (GNU GPLv3)
 
 You can find the license text [here](http://www.gnu.org/licenses/gpl-3.0.html).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdragonbk91%2Fwifianalyzer_deploy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdragonbk91%2Fwifianalyzer_deploy?ref=badge_large)
 
 ## Acknowledgement:
 This Application is Modified application of WiFiAnalyzer(open-source) Application Which
